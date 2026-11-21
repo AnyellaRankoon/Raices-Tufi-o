@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1f2918">
+  <meta name="description" content="Raíces Tufiño - Asociación de servicios de alimentación. Nuestra cocina sostenible.">
+  <title>Raíces Tufiño | Nuestra cocina sostenible</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- BARRA SUPERIOR -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <span>PRODUCTOS AGROECOLÓGICOS DE TUFIÑO</span>
+      <span>DEL CAMPO A TU MESA</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-content">
+
+      <a href="#inicio" class="brand">
+        <img src="Isologo_Mesa de trabajo 1.png" alt="Logotipo de Raíces Tufiño" class="logo">
+
+        <div class="brand-text">
+          <h2>Raíces <span>Tufiño</span></h2>
+          <p>ASOSERALIMENUS</p>
+        </div>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-expanded="false">
+        MENÚ
+      </button>
+
+      <nav class="navigation" id="navigation">
+        <a href="#inicio">Inicio</a>
+        <a href="#firma">Nosotros</a>
+        <a href="#areas">Productos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#busqueda">Buscar</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a href="#agendar" class="button button-gold header-button">
+        Hacer pedido
+      </a>
+    </div>
+  </header>
+
+  <main id="app">
+
+  
+    <section class="screen welcome-screen" id="bienvenida">
+      <div class="container welcome-content">
+
+         <div class="welcome-video">
+          <iframe id="videoBienvenida"
+            src="https://www.youtube.com/embed/SweBjFJZpzo?autoplay=1&mute=1&loop=1&playlist=SweBjFJZpzo&controls=0&rel=0"
+            title="Animación Raíces Tufiño"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+        </div>
+
+        <span class="eyebrow">ASOCIACIÓN DE SERVICIOS DE ALIMENTACIÓN</span>
+        <h1>Bienvenido a <span>Raíces Tufiño</span></h1>
+        <p>Alimentos que nacen de nuestra tierra, cultivados con respeto y preparados con responsabilidad.</p>
+        <a href="#inicio" class="button button-gold">Comenzar</a>
+      </div>
+    </section>
+
+    <section class="screen hero" id="inicio">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="eyebrow">RAÍCES TUFIÑO</span>
+          <h1>Sabores saludables del campo, <span> cocechados sin quimicos </span></h1>
+          <p>Mermeladas, pickles, snacks, frutos deshidratados y hortalizas frescas producidos de forma agroecológica en la parroquia de Tufiño.</p>
+          <div class="hero-buttons">
+            <a href="#areas" class="button button-gold">Ver productos</a>
+            <a href="#contacto" class="button button-outline">Contáctanos</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="logotipo.png" alt="Imagen principal de Raíces Tufiño">
+        </div>
+      </div>
+
+      <div class="container quick-access">
+        <a href="#areas">Nuestros productos</a>
+        <a href="#agendar">Hacer pedido</a>
+        <a href="#login">Portal de clientes</a>
+      </div>
+    </section>
+
+    <section class="screen section" id="firma">
+      <div class="container">
+        <div class="section-title">
+          <span>QUIÉNES SOMOS</span>
+          <h2>Una asociación que nace de la tierra</h2>
+        </div>
+
+        <div class="two-columns">
+          <div class="image-placeholder">
+            <!-- EDITA AQUÍ LA RUTA DE LA IMAGEN INSTITUCIONAL -->
+            <img src="Asoseralimenus-asociacion.png" alt="Imagen de Raíces Tufiño">
+          </div>
+          <div>
+            <h3>Raíces Tufiño</h3>
+            <p>Somos una asociación de servicios de alimentación de la parroquia de Tufiño. Trabajamos con productores locales para ofrecer alimentos sanos y sostenibles.</p>
+            <p>La marca Raices Tufiño representa el origen, el crecimiento y la conexión con la tierra. Cada producto es cultivado con esfuerzo y respeto por el ambiente.</p>
+            <a href="#areas" class="button button-gold">Conocer productos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen section light-section" id="areas">
+      <div class="container">
+        <div class="section-title">
+          <span>NUESTROS PRODUCTOS</span>
+          <h2>Del campo a tu mesa</h2>
+          <p>Conoce los productos agroecológicos que preparamos en nuestra comunidad.</p>
+        </div>
+
+        <div class="areas-grid">
+
+          <a href="#detalle-area" class="area-card" data-area="Mermeladas">
+            <img src="Mermeladas.png" alt="Icono de mermeladas" style="height: 150px; width: 150px;">
+            <h3>Mermeladas</h3>
+            <p>Hechas con frutas de la zona.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Pickles">
+            <img src="Pickles.png" alt="Icono de pickles" style="height: 150px; width: 150px;">
+            <h3>Pickles</h3>
+            <p>Encurtidos de hortalizas frescas.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Snacks">
+            <img src="Snacks.png" alt="Icono de snacks" style="height: 150px; width: 150px;">
+            <h3>Snacks</h3>
+            <p>Bocaditos saludables y naturales.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Frutos deshidratados">
+            <img src="Frutos secos.png" alt="Icono de frutos secos" style="height: 150px; width: 150px;">
+            <h3>Frutos deshidratados</h3>
+            <p>Energía natural para tu día.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Hortalizas frescas">
+            <img src="Hortalizas Frescas.png" alt="Icono de hortalizas frescas" style="height: 150px; width: 150px;">
+            <h3>Hortalizas frescas</h3>
+            <p>Cosechadas directo del huerto.</p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="screen section" id="detalle-area">
+      <div class="container narrow">
+        <span class="eyebrow">PRODUCTO AGROECOLÓGICO</span>
+        <h1 id="areaTitle">Mermeladas</h1>
+        <p id="areaDescription">Hechas con frutas de temporada, cocechadas en los invernaderos de Tufiño de manera natural y sin químicos para cuidar su sabor.</p>
+        <div class="detail-panel">
+          <h3>¿Te gustaría probarlo?</h3>
+          <p>Haz tu pedido y recibe productos frescos y naturales preparados por nuestra comunidad.</p>
+          <a href="#agendar" class="button button-gold">Hacer pedido</a>
+        </div>
+        <a href="#areas" class="back-link">← Volver a los productos</a>
+      </div>
+    </section>
+
+        <section class="screen section" id="detalle-area">
+      <div class="container narrow">
+        <span class="eyebrow">PRODUCTO AGROECOLÓGICO</span>
+        <h1 id="areaTitle">Pickes</h1>
+        <p id="areaDescription">Encurtidos de pepinillo, cebolla, zanahoria y otras hortalizas, preparados con vinagre natural y especias para darle mucho más sabor.</p>
+        <div class="detail-panel">
+          <h3>¿Te gustaría probarlo?</h3>
+          <p>Haz tu pedido y recibe productos frescos y naturales preparados por nuestra comunidad.</p>
+          <a href="#agendar" class="button button-gold">Hacer pedido</a>
+        </div>
+        <a href="#areas" class="back-link">← Volver a los productos</a>
+      </div>
+    </section>
+
+        <section class="screen section" id="detalle-area">
+      <div class="container narrow">
+        <span class="eyebrow">PRODUCTO AGROECOLÓGICO</span>
+        <h1 id="areaTitle">Snaks</h1>
+        <p id="areaDescription">Bocaditos saludables como chips de papa, de haba y de frutas deshidratadas, ideales para la lonchera y antojos de media tarde.</p>
+        <div class="detail-panel">
+          <h3>¿Te gustaría probarlo?</h3>
+          <p>Haz tu pedido y recibe productos frescos y naturales preparados por nuestra comunidad.</p>
+          <a href="#agendar" class="button button-gold">Hacer pedido</a>
+        </div>
+        <a href="#areas" class="back-link">← Volver a los productos</a>
+      </div>
+    </section>
+
+       <section class="screen section" id="detalle-area">
+      <div class="container narrow">
+        <span class="eyebrow">PRODUCTO AGROECOLÓGICO</span>
+        <h1 id="areaTitle">Frutos deshidratados</h1>
+        <p id="areaDescription">Ideales para algo ligero que puedesacompañar con yogurt, granola y cereal en tus mañanas.</p>
+        <div class="detail-panel">
+          <h3>¿Te gustaría probarlo?</h3>
+          <p>Haz tu pedido y recibe productos frescos y naturales preparados por nuestra comunidad.</p>
+          <a href="#agendar" class="button button-gold">Hacer pedido</a>
+        </div>
+        <a href="#areas" class="back-link">← Volver a los productos</a>
+      </div>
+    </section>
+
+           <section class="screen section" id="detalle-area">
+      <div class="container narrow">
+        <span class="eyebrow">PRODUCTO AGROECOLÓGICO</span>
+        <h1 id="areaTitle">Hortalizas frescas</h1>
+        <p id="areaDescription">Hortalizas cosechadas en los invernaderos agroecológicos de la parroquia de Tufiño, sin químicos y seguros para tu salud y de tu familia.</p>
+        <div class="detail-panel">
+          <h3>¿Te gustaría probarlo?</h3>
+          <p>Haz tu pedido y recibe productos frescos y naturales preparados por nuestra comunidad.</p>
+          <a href="#agendar" class="button button-gold">Hacer pedido</a>
+        </div>
+        <a href="#areas" class="back-link">← Volver a los productos</a>
+      </div>
+    </section>
+
+    <section class="screen section light-section" id="servicios">
+      <div class="container">
+        <div class="section-title">
+          <span>LO QUE HACEMOS</span>
+          <h2>Nuestros servicios</h2>
+          <p>Alimentación sostenible para tu hogar, tu negocio y tus eventos.</p>
+        </div>
+
+        <div class="service-grid">
+          <a href="#detalle-servicio" class="service-card" data-service="Pedidos a domicilio">
+            <h3>Pedidos a domicilio</h3>
+            <p>Recibe nuestros productos frescos en la puerta de tu casa dentro de la parroquia de Tufiño y de la ciudad de Tulcán.</p>
+            <span>Conocer servicio →</span>
+          </a>
+
+          <a href="#detalle-servicio" class="service-card" data-service="Venta al por mayor">
+            <h3>Venta al por mayor</h3>
+            <p>Abastecemos a tiendas, mercados, restaurantes y ferias locales.</p>
+            <span>Conocer servicio →</span>
+          </a>
+
+          <a href="#detalle-servicio" class="service-card" data-service="Talleres de cocina sostenible">
+            <h3>Talleres de cocina sostenible</h3>
+            <p>Aprende a preparar conservas y a aprovechar los alimentos.</p>
+            <span>Conocer servicio →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen section" id="detalle-servicio">
+      <div class="container narrow">
+        <span class="eyebrow">NUESTROS SERVICIOS</span>
+        <h1 id="serviceTitle">Detalle del servicio</h1>
+        <p id="serviceDescription">Conoce las características de nuestros servicios de alimentación.</p>
+        <div class="detail-panel">
+          <h3>Atención cercana</h3>
+          <p>Escríbenos y te ayudamos a elegir los productos que necesitas.</p>
+          <a href="#agendar" class="button button-gold">Hacer pedido</a>
+        </div>
+        <a href="#servicios" class="back-link">← Volver a servicios</a>
+      </div>
+    </section>
+
+  
+    <section class="screen section light-section" id="busqueda">
+      <div class="container">
+        <div class="section-title">
+          <span>ENCUENTRA LO QUE BUSCAS</span>
+          <h2>Buscar productos y servicios</h2>
+        </div>
+
+        <div class="search-panel">
+          <label for="searchInput">¿Qué estás buscando?</label>
+          <input type="search" id="searchInput" placeholder="Ejemplo: mermelada, pickles...">
+          <button class="button button-gold" id="searchButton" type="button">Buscar</button>
+        </div>
+
+        <div class="filter-row">
+          <label for="categoryFilter">Filtrar por categoría</label>
+          <select id="categoryFilter">
+            <option value="all">Todas las categorías</option>
+            <option value="area">Productos</option>
+            <option value="service">Servicios</option>
+          </select>
+        </div>
+
+        <div id="searchResults" class="search-results">
+          <p>Escribe una palabra para buscar información.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen section" id="agendar">
+      <div class="container narrow">
+        <div class="section-title">
+          <span>HAZ TU PEDIDO</span>
+          <h2>Solicitud de pedido</h2>
+          <p>Completa los siguientes datos y nos comunicaremos contigo.</p>
+        </div>
+
+        <form id="appointmentForm" class="form-panel">
+          <label for="appointmentName">Nombre completo</label>
+          <input id="appointmentName" name="name" required placeholder="Tu nombre">
+
+          <label for="appointmentPhone">Teléfono</label>
+          <input id="appointmentPhone" name="phone" type="tel" required placeholder="Tu número de contacto">
+
+          <label for="appointmentEmail">Correo electrónico</label>
+          <input id="appointmentEmail" name="email" type="email" placeholder="Tu correo">
+
+          <label for="appointmentArea">Producto</label>
+          <select id="appointmentArea" name="area" required>
+            <option value="">Selecciona un producto</option>
+            <option>Mermeladas</option>
+            <option>Pickles</option>
+            <option>Snacks</option>
+            <option>Frutos secos</option>
+            <option>Hortalizas frescas</option>
+            <option>Canasta agroecológica</option>
+            <option>Productos de temporada</option>
+            <option>Otro / consulta general</option>
+          </select>
+
+          <label for="appointmentDate">Fecha de entrega preferida</label>
+          <input id="appointmentDate" name="date" type="date" required>
+
+          <label for="appointmentMessage">Detalles del pedido</label>
+          <textarea id="appointmentMessage" name="message" rows="4" placeholder="Cantidad, sabores, dirección de entrega..."></textarea>
+
+          <label class="check-label">
+            <input type="checkbox" required>
+            Acepto que mis datos sean utilizados para gestionar este pedido.
+          </label>
+
+          <button type="submit" class="button button-gold">Enviar pedido</button>
+        </form>
+      </div>
+    </section>
+
+
+    <section class="screen section" id="confirmacion">
+      <div class="container narrow confirmation-panel">
+        <span class="eyebrow">PEDIDO REGISTRADO</span>
+        <h1>¡Gracias por tu pedido!</h1>
+        <p id="confirmationMessage">Tu pedido ha sido registrado en esta demostración. Pronto nos comunicaremos contigo.</p>
+        <a href="#inicio" class="button button-gold">Volver al inicio</a>
+        <a href="#contacto" class="back-link">Ver información de contacto</a>
+      </div>
+    </section>
+
+    <section class="screen section light-section" id="contacto">
+      <div class="container">
+        <div class="section-title">
+          <span>ESTAMOS PARA AYUDARTE</span>
+          <h2>Contacto y ubicación</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Raíces Tufiño</h3>
+            <p>Escríbenos para conocer nuestros productos, precios y formas de entrega.</p>
+
+            <div class="contact-item">
+              <strong>Teléfono</strong>
+              <a href="tel:+593981922352">+593981922352</a>
+            </div>
+
+            <div class="contact-item">
+              <strong>Dirección</strong>
+              <p>Parroquia Tufiño, cantón Tulcán, provincia del Carchi, Ecuador.</p>
+            </div>
+
+            <a href="https://wa.me/+593981922352" target="_blank" rel="noopener noreferrer" class="button button-gold">Pedir por WhatsApp</a>
+          </div>
+
+          <div class="contact-card">
+            <h3>Dónde encontrarnos</h3>
+            <p>Parroquia Tufiño</p>
+            <p>Tulcán, Carchi, Ecuador.</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Tufino+Carchi+Ecuador" target="_blank" rel="noopener noreferrer" class="text-link">Ver ubicación en Google Maps →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="screen section" id="login">
+      <div class="container narrow">
+        <div class="section-title">
+          <span>PORTAL DE CLIENTES</span>
+          <h2>Iniciar sesión</h2>
+          <p>Accede a tu espacio personal.</p>
+        </div>
+
+        <form id="loginForm" class="form-panel">
+          <label for="loginEmail">Correo electrónico</label>
+          <input id="loginEmail" type="email" required placeholder="correo@ejemplo.com">
+
+          <label for="loginPassword">Contraseña</label>
+          <input id="loginPassword" type="password" required placeholder="Tu contraseña">
+
+          <button type="submit" class="button button-gold">Ingresar</button>
+
+          <a href="#recuperar" class="text-link">¿Olvidaste tu contraseña?</a>
+          <p class="form-note">¿Todavía no tienes cuenta? <a href="#registro">Regístrate aquí</a>.</p>
+        </form>
+      </div>
+    </section>
+
+
+    <section class="screen section" id="registro">
+      <div class="container narrow">
+        <div class="section-title">
+          <span>PORTAL DE CLIENTES</span>
+          <h2>Crear una cuenta</h2>
+          <p>Regístrate para revisar tus pedidos y recibir novedades.</p>
+        </div>
+
+        <form id="registerForm" class="form-panel">
+          <label for="registerName">Nombre completo</label>
+          <input id="registerName" required placeholder="Tu nombre">
+
+          <label for="registerEmail">Correo electrónico</label>
+          <input id="registerEmail" type="email" required placeholder="Tu correo">
+
+          <label for="registerPhone">Teléfono</label>
+          <input id="registerPhone" type="tel" required placeholder="Tu teléfono">
+
+          <label for="registerPassword">Crear contraseña</label>
+          <input id="registerPassword" type="password" minlength="6" required placeholder="Mínimo 6 caracteres">
+
+          <label class="check-label">
+            <input type="checkbox" required>
+            Acepto el tratamiento de mis datos para esta demostración.
+          </label>
+
+          <button type="submit" class="button button-gold">Crear cuenta</button>
+          <p class="form-note">¿Ya tienes cuenta? <a href="#login">Inicia sesión</a>.</p>
+        </form>
+      </div>
+    </section>
+
+
+    <section class="screen section" id="recuperar">
+      <div class="container narrow">
+        <div class="section-title">
+          <span>RECUPERACIÓN DE ACCESO</span>
+          <h2>¿Olvidaste tu contraseña?</h2>
+          <p>Ingresa tu correo electrónico para continuar con la recuperación.</p>
+        </div>
+
+        <form id="recoveryForm" class="form-panel">
+          <label for="recoveryEmail">Correo electrónico</label>
+          <input id="recoveryEmail" type="email" required placeholder="correo@ejemplo.com">
+          <button type="submit" class="button button-gold">Solicitar recuperación</button>
+          <a href="#login" class="back-link">← Volver a iniciar sesión</a>
+        </form>
+      </div>
+    </section>
+
+    <section class="screen section light-section" id="portal">
+      <div class="container">
+        <div class="portal-heading">
+          <div>
+            <span class="eyebrow">ESPACIO PERSONAL</span>
+            <h1>Portal de clientes</h1>
+            <p>Bienvenido a tu espacio de pedidos y novedades.</p>
+          </div>
+          <a href="#inicio" class="button button-outline-dark" id="logoutButton">Salir</a>
+        </div>
+
+        <div class="portal-grid">
+          <a href="#perfil" class="portal-card">
+            <h3>Mi perfil</h3>
+            <p>Consulta tus datos personales.</p>
+          </a>
+
+          <a href="#editar-perfil" class="portal-card">
+            <h3>Editar perfil</h3>
+            <p>Actualiza tu información de contacto.</p>
+          </a>
+
+          <a href="#notificaciones" class="portal-card">
+            <h3>Notificaciones</h3>
+            <p>Revisa el estado de tus pedidos.</p>
+          </a>
+
+          <a href="#configuracion" class="portal-card">
+            <h3>Configuración</h3>
+            <p>Administra las preferencias de tu cuenta.</p>
+          </a>
+        </div>
+
+        <p class="demo-notice">Portal demostrativo. La información solo se guarda en este navegador.</p>
+      </div>
+    </section>
+
+    <section class="screen section" id="perfil">
+      <div class="container narrow">
+        <span class="eyebrow">PORTAL DE CLIENTES</span>
+        <h1>Mi perfil</h1>
+        <div class="detail-panel">
+          <p><strong>Nombre:</strong> <span id="profileName">Cliente de demostración</span></p>
+          <p><strong>Correo:</strong> <span id="profileEmail">No registrado</span></p>
+          <p><strong>Teléfono:</strong> <span id="profilePhone">No registrado</span></p>
+          <a href="#editar-perfil" class="button button-gold">Editar mis datos</a>
+        </div>
+        <a href="#portal" class="back-link">← Volver al portal</a>
+      </div>
+    </section>
+
+    <section class="screen section" id="editar-perfil">
+      <div class="container narrow">
+        <div class="section-title">
+          <span>PORTAL DE CLIENTES</span>
+          <h2>Editar perfil</h2>
+        </div>
+        <form id="profileForm" class="form-panel">
+          <label for="editName">Nombre completo</label>
+          <input id="editName" required>
+          <label for="editEmail">Correo electrónico</label>
+          <input id="editEmail" type="email" required>
+          <label for="editPhone">Teléfono</label>
+          <input id="editPhone" type="tel">
+          <button type="submit" class="button button-gold">Guardar cambios</button>
+        </form>
+        <a href="#perfil" class="back-link">← Volver al perfil</a>
+      </div>
+    </section>
+
+    <section class="screen section" id="notificaciones">
+      <div class="container narrow">
+        <span class="eyebrow">PORTAL DE CLIENTES</span>
+        <h1>Notificaciones</h1>
+        <div class="detail-panel">
+          <h3>Mis pedidos</h3>
+          <div id="ordersList">
+            <p>Todavía no tienes pedidos registrados.</p>
+          </div>
+        </div>
+        <a href="#portal" class="back-link">← Volver al portal</a>
+      </div>
+    </section>
+
+    <section class="screen section" id="configuracion">
+      <div class="container narrow">
+        <span class="eyebrow">PORTAL DE CLIENTES</span>
+        <h1>Configuración</h1>
+        <div class="detail-panel">
+          <h3>Preferencias de cuenta</h3>
+          <label class="check-label">
+            <input type="checkbox" id="noticePreference" checked>
+            Recibir novedades de productos de temporada.
+          </label>
+          <p>Las preferencias se muestran como parte del prototipo.</p>
+        </div>
+        <a href="#portal" class="back-link">← Volver al portal</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+
+        <img style="height: 125px; width: 300px;" src="Imagotipo-02.png" alt="Logotipo de Raíces Tufiño">
+        <div>
+          <h3>Raíces Tufiño</h3>
+          <p>Asociación de servicios de Alimentación,Nuestra cocina sostenible</p>
+        </div>
+    
+
+    <div class="copyright">
+      © <span id="year"></span> Raíces Tufiño · Asoseralimenus · Todos los derechos reservados.
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="Codigo.js"></script>
+</body>
+</html>
